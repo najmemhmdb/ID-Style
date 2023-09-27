@@ -1,0 +1,10 @@
+8
+Gender	Glasses	Age	Expression
+000000.png	1	0	0	1
+000001.png	0	0	0	1
+000002.png	1	1	1	1
+000003.png	0	0	0	1
+000004.png	1	1	1	0
+000005.png	0	0	0	0
+000006.png	0	0	0	1
+000007.png	1	0	0	0

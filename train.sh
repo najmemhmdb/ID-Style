@@ -1,0 +1,25 @@
+python3 \
+  main.py \
+  --mode train \
+  --latent_type wp \
+  --optim AdaBelief \
+  --weight_decay 1e-5\
+  --lr 1e-3 \
+  --batch_size 2 \
+  --lambda_cls 2 \
+  --lambda_nb 0.3 \
+  --lambda_cos 5 \
+  --lambda_sparsity 1 \
+  --total_iters 100000 \
+  --sample_every 5000 \
+  --print_every 1000 \
+  --warmup_steps 1000 \
+  --save_every 5000 \
+  --source_path path_to_image \
+  --attr_path path_to_attr \
+  --latent_path path_to_latent \
+  --sample_dir ./results/ \
+  --checkpoint_dir "./results/" \
+  --resume_iter 0 \
+  --num_workers 1 \
+  --stylegan2_path ./pretrained_models/stylegan2-ffhq-config-f.pt \
