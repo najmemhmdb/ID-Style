@@ -40,7 +40,7 @@ This repo is built on several existing projects:
 @InProceedings{mohammadbagheri2023identitypreserving,
     author    = {Mohammadbagheri, Najmeh and Ayar, Fardin and Nickabadi, Ahmad and Safabakhsh, Reza},
     title     = {Identity-preserving Editing of Multiple Facial Attributes by Learning Global Edit Directions and Local Adjustments},
-    booktitle = {arXiv preprint arXiv:2309.14267},
-    year      = {2023}
+    booktitle = {Computer vision and image understanding, 246, p.104047},
+    year      = {2024}
 }
 ```
